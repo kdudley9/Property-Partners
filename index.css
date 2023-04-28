@@ -1,0 +1,41 @@
+
+h1 {
+   text-align: center;
+   margin-top: 2%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+tr, td{
+  font-size: 20px;
+}
+#user_type{
+    width: 208px;
+    height: 27px;
+    margin-bottom: 20px;
+}
+.user_type{
+  margin-bottom: 20px;
+}
+.main{
+ margin-left: 450px;
+}
+ .form__input{
+   height: 20px;
+   width: 200px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom:20px;
+ }
+ .form__button{
+   background-color: green;
+   height: 40px;
+   width: 180px;
+   color: #ffffff;
+   text-align: center;
+   border: 4px double #cccccc;
+   border-radius: 10px;
+   font-size: 20px
+
+ }
+ .form__text{
+   font-size: 20px;
+ }
