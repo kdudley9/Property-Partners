@@ -2,13 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>PropHub</title>
+    <title>Sign Up</title>
     <link href="index.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h1>PropHub<h1>
+    
       <form action="signup-submit.php" method="post" align="center">
         <div class="main">
+            <h1><img src="web-wiz2.png" width="260" height="120"><h1>
+                <br>
           <table>
                 <tr>
                     <td>Name:</td>
@@ -50,11 +52,13 @@
                         <input class="form__input" type="text" name="confirmPassword" size="12" maxlength="20" required>
                     </td>
                 </tr>
-          </table>
-        </div>
+          </table>   
           <input class="form__button" type="submit" value="Sign Up">
           <p class="form__text">
+            <br>
               <a href="Login.php" id="linkLogin">Already have an account? login in</a>
+        </div>
+       
           </p>
       </form>
   </body>

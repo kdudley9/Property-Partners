@@ -84,7 +84,7 @@ $remember = $_POST['remember'];
 
       if(strtolower($userType) == 'buyer'){
         //echo "redirects to Buyer Dashboard";
-        echo "<script type='text/javascript'>window.top.location='https://codd.cs.gsu.edu/~canjana2/PROJECT4/Buyer.php';</script>";
+        echo "<script type='text/javascript'>window.top.location='services.html';</script>";
       }
       elseif(strtolower($userType) == 'seller'){
         //echo "redirects to Seller Dashboard";

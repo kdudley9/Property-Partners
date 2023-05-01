@@ -1,8 +1,17 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 h1 {
    text-align: center;
    margin-top: 2%;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
 tr, td{
   font-size: 20px;
@@ -16,7 +25,13 @@ tr, td{
   margin-bottom: 20px;
 }
 .main{
- margin-left: 450px;
+  height: 75%;
+  width: 40%;
+  padding: 15px;
+ margin-left: 30%;
+ margin-top: 10%;
+ background-color: white;
+ border-radius: 10px;
 }
  .form__input{
    height: 20px;
@@ -26,7 +41,7 @@ tr, td{
    margin-bottom:20px;
  }
  .form__button{
-   background-color: green;
+   background-color: #ff914d;
    height: 40px;
    width: 180px;
    color: #ffffff;
@@ -39,3 +54,4 @@ tr, td{
  .form__text{
    font-size: 20px;
  }
+ 
