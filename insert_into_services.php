@@ -12,15 +12,17 @@ if ($conn->connect_error) {
 }
 
 // Inserting into the table
-$sql = "INSERT INTO services (category, title, description, price, image_path)
+$sql = "INSERT INTO services (link, category, title, description, price, image_path)
 VALUES 
-('Course', 'C++ Course', 'Learn the fundamentals of C++', 10, 'service_images/c-plus-logo.jpg'),
-('Tutoring', 'Discrete Math Guidance', 'Get one-on-one tutoring for Discrete Math', 20, 'service_images/discrete-math-logo.png'),
-('Tutoring', 'Operating Systems Guidance', 'Get one-on-one tutoring for Operating Systems', 20, 'service_images/operating-systems-logo.jfif'),
-('Course', 'Data Structures', 'Learn all of the basic data structures', 12, 'service_images/ds-logo.png'),
-('Course', 'HTML & CSS Course', 'Learn everything you need to know about HTML & CSS', 8, 'service_images/html-and-css.jpg'),
-('Tutoring', 'Programming Language Concepts Guidance', 'Get one-on-one tutoring for Programming Language Concepts', 20, 'service_images/plc-logo.webp'),
-('Tutoring', 'Web Programming Guidance', 'Get one-on-one tutoring for Web Programming', 15, 'service_images/web-programming-logo.jpg')";
+('one.html', 'Traditional', '842 Cascade Xing SW, Atlanta, GA', '5 bds | 3 ba | 5,984 sqft - House for sale', 423000, 'service_images/traditional_1.jfif'),
+('two.html', 'Traditional', '2561 Laurel Cir NW, Atlanta, GA', '3 bds | 3 ba | 1,728 sqft - Townhouse for sale', 200000, 'service_images/traditional_2.jfif'),
+('three.html', 'Tiny', 'Screven, GA', '1 bd | 1 ba | 360 sqft - Tiny home for sale', 150000, 'service_images/tiny_1.jfif'),
+('four.html', 'Luxury', '389 Blackland Rd. NW Atlanta, GA', '6 bd | 10 ba | 2.08 acres Luxury home for sale', 10900000, 'service_images/luxury_1.jfif'),
+('five.html', 'Traditional', '8 Ivy Gates NE, Atlanta, GA', '2 bds | 3 ba | 1,340 sqft - Townhouse for sale', 346000, 'service_images/traditional_3.jfif'),
+('six.html', 'Luxury', '50 Valley Road NW Atlanta, GA', '6 bds | 10 ba | 11,380 sqft - Luxury home for sale', 8800000, 'service_images/luxury_2.jfif'),
+('seven.html', 'Luxury', '1230 W Garmon Road, Atlanta, GA', '7 bds | 11 ba | 15,015 sqft - Luxury home for sale', 6995000, 'service_images/luxury_3.jfif'),
+('eight.html', 'Tiny', 'Toccoa, GA', '1 bd | 1 ba | 392 sqft - Tiny home for sale', 120000, 'service_images/tiny_2.jfif'),
+('nine.html', 'Tiny', 'Moultrie, GA', '1 bd | 1 ba | 517 sqft', 80000, 'service_images/tiny_3.jfif')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Data inserted successfully into the table";

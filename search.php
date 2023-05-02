@@ -18,7 +18,7 @@ if (isset($_GET['query'])) {
 }
 
 //prepare query
-$query = "SELECT * FROM services WHERE title LIKE '%$search_query%' OR description LIKE '%$search_query%'";
+$query = "SELECT * FROM services WHERE title LIKE '%$search_query%' OR description LIKE '%$search_query%' OR category LIKE '%$search_query%'";
 
 //execute query
 $result = $conn->query($query);
@@ -47,7 +47,7 @@ $result = $conn->query($query);
         if ($result->num_rows > 0) {
           while($row = $result->fetch_assoc()) {
             echo "<div class='card'>";
-            echo "<a href='#'>";
+            echo "<a href='" . $row['link'] . "'>";
             echo "<div class='category'>" . $row['category'] . "</div>";
             echo "<img src='" . $row['image_path'] . "' alt='" . $row['title'] . "'>";
             echo "<h2 class='title'>" . $row['title'] . "</h2>";

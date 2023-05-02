@@ -7,7 +7,7 @@
   </head>
   <body>
   <div class="main">
-    <h1><img src="web-wiz2.png" width="260" height="120"></h1>
+    <h1><img src="logo.png" width="260" height="120"></h1>
   
 <br>
     <div align="center">

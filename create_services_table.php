@@ -13,6 +13,7 @@ if ($conn->connect_error) {
 
 $sql = "CREATE TABLE IF NOT EXISTS services (
     id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    link VARCHAR(255) NOT NULL,
     category VARCHAR(50) NOT NULL,
     title VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
