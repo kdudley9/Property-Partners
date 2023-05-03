@@ -1,109 +1,114 @@
-.search input[type=text]{
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-    width: 100%;
-    border: none;
-}
-     
-.search{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 20px;
-    width: 100%;
+.search input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 100%;
+  border: none;
 }
 
-.search a:link, 
+.search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.search a:link,
 a:visited {
-    background-color: blue;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .search a:hover,
 a:active {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .services-container .card {
-    width: 240px;
-    background: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 16px;
-    box-shadow: 0 9px 17px -6px rgba(0, 0, 0, 0.2);
-    position: relative;
+  width: 240px;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px;
+  box-shadow: 0 9px 17px -6px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
 .services-container,
 .services-container * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .services-container .card a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .services-container .card img {
-    margin: -16px;
-    object-fit: cover;
+  margin: -16px;
+  object-fit: cover;
 }
 
 .services-container .card .category {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: black;
-    color: white;
-    padding: 2px 16px;
-    font-size: 13px;
-    text-transform: uppercase;
-    border-radius: 10px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: black;
+  color: white;
+  padding: 2px 16px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .services-container .card h2.title {
-    font-size: 20px;
-    margin: 20px 0 10px 0;
-    line-height: 1.4;
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+  line-height: 1.4;
 }
 
 .services-container .card .description {
-    font-size: 15px;
-    color: black;
-    margin: 0;
-    line-height: 1.7;
+  font-size: 15px;
+  color: black;
+  margin: 0;
+  line-height: 1.7;
 }
 
 .services-container .card .info {
-    background: #edf6f9;
-    margin: -16px;
-    margin-top: 20px;
-    padding: 12px 16px;
-    align-items: center;
+  background: #edf6f9;
+  margin: -16px;
+  margin-top: 20px;
+  padding: 12px 16px;
+  align-items: center;
 }
 
 .services-container .card .info .price {
-    font-size: 28px;
-    font-weight: 900;
+  font-size: 28px;
+  font-weight: 900;
 }
 
 .services-container {
-    display: flex;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 32px;
-    max-width: 800px;
-    margin: 80px auto 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  max-width: 800px;
+  margin: 80px auto 20px auto;
+}
+
+#main {
+  margin: 0%;
+  background-color: grey;
 }
